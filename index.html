@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Birthday Gift</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: verdana;
+        }
+        
+        body {
+            background-color: #FAE5D7;
+        }
+
+        .container {
+            width: 70%;
+            border: 1.5px solid black;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+
+        .container .content {
+            border: 1px solid black;
+            width: 67%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(20, 20, 20);
+        }
+
+        .container .btns button {
+            height: 30px;
+            width: 30px;
+            margin-right: 5px;
+            margin-left: 5px;
+            margin-top: 10px;
+            background-color: rgb(20, 20, 20);
+            color: white;
+            font-family: tahoma;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .container .inp {
+            padding: 10px 0px;
+        }
+
+        .container .inp input {
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 50%;
+            font-family: tahoma;
+            padding: 0px 5px;
+            color: black;
+        }
+
+        .enterBtn {
+            padding: 0px 38px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p>Enter your Birthday</p>
+        </div>
+        <div class="inp">
+            <input type="text" placeholder="Password" disabled>
+        </div>
+        <div class="btns">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button><br>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button><br>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button><br>
+            <button>/</button>
+            <button>0</button>
+            <button>-</button><br>
+            <button>C</button>
+            <button class="enterBtn">Enter</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+<!-- 
+
+ALL POSSIBLE PASSWORD KEYS
+
+8-15-2000
+8/15/2000
+08-15-2000
+08/15/2000
+8-15-00
+08-15-00
+8/15/00
+08/15/00
+
+ -->

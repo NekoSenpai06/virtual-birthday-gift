@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual Birthday Gift</title>
+    <style>
+        button {
+            background-color: #FAE5D7;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/2.png">
+        <img src="images/3.png">
+        <button onclick="music1()">
+            <img src="images/4.png">
+        </button>
+        <button onclick="music2()">
+            <img src="images/5.png">
+        </button>
+    </div>
+</body>
+<script>
+    var audio1 = new Audio("1.mp3");
+    var audio2 = new Audio("2.mp3");
+
+    function music1() {
+        audio2.pause();
+        audio1.play();
+        alert("Now playing: Araw - Araw by Ben & Ben");
+    }
+
+    function music2() {
+        audio1.pause();
+        audio2.play();
+        alert("Now playing: Ikaw at Ako by Moira");
+    }
+</script>
+</html>
