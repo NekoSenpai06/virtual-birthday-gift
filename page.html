@@ -26,17 +26,27 @@
 <script>
     var audio1 = new Audio("1.mp3");
     var audio2 = new Audio("2.mp3");
+    var audio3 = new Audio("3.mp3");
 
     function music1() {
+        audio3.pause();
         audio2.pause();
         audio1.play();
         alert("Now playing: Araw - Araw by Ben & Ben");
     }
 
     function music2() {
+        audio3.pause();
         audio1.pause();
         audio2.play();
         alert("Now playing: Ikaw at Ako by Moira");
+    }
+
+    function music3() {
+        audio2.pause();
+        audio1.pause();
+        audio3.play();
+        alert("Now playing: Surreal by Justin (SB19)");
     }
 </script>
 </html>
